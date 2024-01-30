@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(10, 59, 200, 0.834);
+    color: white; /* Establece el color de texto a blanco */
+    font-size: 200px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+image {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnologias img {
+    max-width: 100%;
+    height: auto; 
+    margin: 50px;
+}
+
+section {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+input {
+    margin-right: 10px; 
+    padding: 5px;
+}
+
+

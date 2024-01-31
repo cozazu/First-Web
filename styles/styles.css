@@ -1,55 +1,145 @@
+html {
+    background-color: rgba(0, 0, 0, 0.931);
+}
+
 body {
-    background-color: rgba(10, 59, 200, 0.834);
-    color: white; /* Establece el color de texto a blanco */
-    font-size: 200px;
+    background-color:rgba(0, 0, 0, 0.931);
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.849); 
 }
 
-.container-flex {
-    display: flex;
-}
-
-.container {
+header {
+    background-color: rgb(214, 246, 6);
+    color: black ;
+    padding: .625rem 0rem .125rem 0rem;
+    text-align: center;
+    box-shadow: .0625rem .0625rem 1.125rem rgba(254, 255, 250, 0.541);
+    
     width: 100%;
-    border: 5px solid #000;
-    text-align: center;
+    top: 0;
+    z-index: 100;
 }
 
-image {
-    text-align: center;
+h1 {
+   font-family: sans-serif;
+   font-size: 2.25rem; 
 }
 
-h1, h2 {
-    text-align: center;
+nav {
+    width: 100%;
 }
 
-.tecnologias {
+nav li:hover {
+    color: rgba(47, 15, 209, 0.931);
+}
+
+.principal {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tecnologias img {
-    max-width: 100%;
-    height: auto; 
-    margin: 50px;
-}
-
-section {
-    display: flex; 
     flex-direction: row;
-    justify-content: center; 
-    text-align: center;
+}
+
+.secondary {
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+}
+
+.secondary li {
+    background-color: rgb(214, 246, 6);
+    border-radius: .625rem;
+    padding: .9375rem;
 }
 
 ul {
     list-style: none;
-    padding: 0;
-    
+    display: flex;
+    justify-content: space-around;
+    padding: 1.125rem;    
 }
 
-input {
-    margin-right: 10px; 
-    padding: 5px;
+.favTech {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.favActi {
+    margin-top: 13.0625rem;
+}
+
+image {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main {
+    margin-top: 6rem;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.931);
+    margin: 1rem;
+    text-align: center;
+    padding: .625rem .5rem 1.125rem .5rem;
+    display: flex; 
+    color: rgba(255, 255, 255, 0.809);
+    margin-bottom: 1rem;    
+}
+
+.secondary h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.5625rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form input, textarea {
+    width: 70%;
+    height: 1.875rem;
+    border-radius: .625rem;
+}
+
+form textarea {
+    height: 4.375rem;
+}
+
+form button {
+    width: 30%;
+    height: 1.25rem;
+    margin-top: .625rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer article{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+
+
+
 
 

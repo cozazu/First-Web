@@ -62,7 +62,31 @@ BotonAgregar.addEventListener("click", function obtenerValores(e) {
 
   console.log(actividad1);
 
-  const title1 = document.createElement("h3");
+  const actividades = creador.getAllActivities();
+
+  boxactivitis.innerHTML = "";
+
+  actividades.forEach((actividad) => {
+    const title1 = document.createElement("h3");
+    const parrafo1 = document.createElement("p");
+    const img1 = document.createElement("img");
+
+    const divcart = document.createElement("div");
+    divcart.id = "estilosPrueba";
+
+    title1.textContent = actividad.Title;
+    parrafo1.innerHTML = actividad.Description;
+    img1.src = actividad.imgUrl;
+
+    divcart.appendChild(title1);
+    divcart.appendChild(parrafo1);
+    divcart.appendChild(img1);
+
+    boxactivitis.appendChild(divcart);
+  });
+});  
+
+  /* const title1 = document.createElement("h3");
   const parrafo1 = document.createElement("p");
   const img1 = document.createElement("img");
 
@@ -78,4 +102,4 @@ BotonAgregar.addEventListener("click", function obtenerValores(e) {
   divcart.appendChild(img1);
 
   boxactivitis.appendChild(divcart);
-});
+});*/

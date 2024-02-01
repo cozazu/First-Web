@@ -138,7 +138,30 @@ footer img {
     width: 2.5rem;
 }
 
+#estilosPrueba {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 9.375rem;
+    width: 9.375rem;
+    background-color: rgb(214, 246, 6);
+    padding: .625rem;
+    border-radius: .625rem;
+    margin: 1.25rem;
 
+
+
+}
+#estilosPrueba h3, p {
+    text-align: center;
+}
+
+#actividadesbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 

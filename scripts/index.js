@@ -84,7 +84,8 @@ BotonAgregar.addEventListener("click", function obtenerValores(e) {
 
     boxactivitis.appendChild(divcart);
   });
-});  
+});
+  
 
   /* const title1 = document.createElement("h3");
   const parrafo1 = document.createElement("p");
